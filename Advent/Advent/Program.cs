@@ -13,7 +13,7 @@ class Program
     private static Stopwatch _stopwatch;
 
     private const int From = 1;
-    private const int To = 25;
+    private const int To = 1;
 
     private static readonly int[,] Times = new int[25, 2];
 
