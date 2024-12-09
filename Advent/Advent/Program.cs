@@ -12,12 +12,12 @@ class Program
 {
     private static Stopwatch _stopwatch;
 
-    private const int From = 2;
-    private const int To = 2;
+    private const int From = 3;
+    private const int To = 3;
 
     private static readonly int[,] Times = new int[25, 2];
 
-    private const int Benchmark = 2;
+    private const int Benchmark = 3;
 
     static void Main(string[] args)
     {
