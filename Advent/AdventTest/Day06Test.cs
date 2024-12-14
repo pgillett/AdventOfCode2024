@@ -16,5 +16,30 @@ public class Day06Test
         _day06 = new Day06();
     }
 
-    private string _input = @"";
+    [TestMethod]
+    public void Part1()
+    {
+        var result = _day06.Part1(_input);
+        
+        result.Should().Be(41);
+    }
+    
+    [TestMethod]
+    public void Part2()
+    {
+        var result = _day06.Part2(_input);
+        
+        result.Should().Be(6);
+    }
+
+    private string _input = @"....#.....
+.........#
+..........
+..#.......
+.......#..
+..........
+.#..^.....
+........#.
+#.........
+......#...";
 }
