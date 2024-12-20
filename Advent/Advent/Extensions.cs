@@ -5,8 +5,8 @@ namespace Advent;
 public static class Extensions
 {
     public static string[] IntoLines(this string str) =>
-        str.Split(Environment.NewLine);
+        str.Split('\n', StringSplitOptions.RemoveEmptyEntries);
 
     public static string[] IntoSections(this string str) =>
-        str.Split(Environment.NewLine + Environment.NewLine);
+        str.Split("\n\n", StringSplitOptions.RemoveEmptyEntries);
 }

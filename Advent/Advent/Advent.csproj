@@ -4,25 +4,12 @@
         <OutputType>Exe</OutputType>
         <TargetFramework>net8.0</TargetFramework>
         <LangVersion>latestmajor</LangVersion>
+        <UserSecretsId>46915836-f089-433b-bccf-f14369cb74fb</UserSecretsId>
     </PropertyGroup>
 
     <ItemGroup>
-      <EmbeddedResource Update="InputData.resx">
-        <Generator>PublicResXFileCodeGenerator</Generator>
-        <LastGenOutput>InputData.Designer.cs</LastGenOutput>
-      </EmbeddedResource>
-    </ItemGroup>
-
-    <ItemGroup>
-      <Compile Update="InputData.Designer.cs">
-        <DesignTime>True</DesignTime>
-        <AutoGen>True</AutoGen>
-        <DependentUpon>InputData.resx</DependentUpon>
-      </Compile>
-    </ItemGroup>
-
-    <ItemGroup>
       <PackageReference Include="BenchmarkDotNet" Version="0.14.0" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="9.0.0" />
     </ItemGroup>
 
 

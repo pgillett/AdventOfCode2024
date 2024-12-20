@@ -17,7 +17,7 @@ class Program
 
     private static readonly int[,] Times = new int[25, 2];
 
-    private const int Benchmark = 7;
+    private const int Benchmark = 0;
 
     static void Main(string[] args)
     {
@@ -47,153 +47,153 @@ class Program
             if (IncludeDay(1))
             {
                 var day = new Day01();
-                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day01));
-                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day01));
+                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day(1)));
+                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day(1)));
             }
             
             if (IncludeDay(2))
             {
                 var day = new Day02();
-                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day02));
-                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day02));
+                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day(2)));
+                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day(2)));
             }
             if (IncludeDay(3))
             {
                 var day = new Day03();
-                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day03));
-                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day03));
+                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day(3)));
+                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day(3)));
             }
             if (IncludeDay(4))
             {
                 var day = new Day04();
-                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day04));
-                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day04));
+                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day(4)));
+                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day(4)));
             }
             if (IncludeDay(5))
             {
                 var day = new Day05();
-                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day05));
-                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day05));
+                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day(5)));
+                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day(5)));
             }
             if (IncludeDay(6))
             {
                 var day = new Day06();
-                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day06));
-                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day06));
+                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day(6)));
+                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day(6)));
             }
             if (IncludeDay(7))
             {
                 var day = new Day07();
-                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day07));
-                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day07));
+                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day(7)));
+                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day(7)));
             }
             if (IncludeDay(8))
             {
                 var day = new Day08();
-                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day08));
-                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day08));
+                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day(8)));
+                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day(8)));
             }
             if (IncludeDay(9))
             {
                 var day = new Day09();
-                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day09));
-                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day09));
+                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day(9)));
+                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day(9)));
             }
             if (IncludeDay(10))
             {
                 var day = new Day10();
-                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day10));
-                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day10));
+                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day(11)));
+                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day(11)));
             }
             if (IncludeDay(11))
             {
                 var day = new Day11();
-                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day11));
-                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day11));
+                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day(12)));
+                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day(12)));
             }
             if (IncludeDay(12))
             {
                 var day = new Day12();
-                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day12));
-                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day12));
+                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day(13)));
+                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day(13)));
             }
             if (IncludeDay(13))
             {
                 var day = new Day13();
-                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day13));
-                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day13));
+                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day(14)));
+                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day(14)));
             }
             if (IncludeDay(14))
             {
                 var day = new Day14();
-                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day14));
-                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day14));
+                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day(15)));
+                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day(15)));
             }
             if (IncludeDay(15))
             {
                 var day = new Day15();
-                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day15));
-                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day15));
+                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day(16)));
+                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day(16)));
             }
             if (IncludeDay(16))
             {
                 var day = new Day16();
-                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day16));
-                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day16));
+                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day(17)));
+                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day(17)));
             }
             if (IncludeDay(17))
             {
                 var day = new Day17();
-                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day17));
-                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day17));
+                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day(18)));
+                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day(18)));
             }
             if (IncludeDay(18))
             {
                 var day = new Day18();
-                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day18));
-                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day18));
+                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day(19)));
+                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day(19)));
             }
             if (IncludeDay(19))
             {
                 var day = new Day19();
-                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day19));
-                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day19));
+                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day(20)));
+                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day(20)));
             }
             if (IncludeDay(20))
             {
                 var day = new Day20();
-                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day20));
-                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day20));
+                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day(21)));
+                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day(21)));
             }
             if (IncludeDay(21))
             {
                 var day = new Day21();
-                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day21));
-                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day21));
+                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day(22)));
+                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day(22)));
             }
             if (IncludeDay(22))
             {
                 var day = new Day22();
-                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day22));
-                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day22));
+                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day(23)));
+                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day(23)));
             }
             if (IncludeDay(23))
             {
                 var day = new Day23();
-                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day23));
-                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day23));
+                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day(24)));
+                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day(24)));
             }
             if (IncludeDay(24))
             {
                 var day = new Day24();
-                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day24));
-                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day24));
+                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day(25)));
+                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day(25)));
             }
             if (IncludeDay(25))
             {
                 var day = new Day25();
-                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day25));
-                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day25));
+                Console.WriteLine("Part 1 - {0}", day.Part1(InputData.Day(25)));
+                Console.WriteLine("Part 2 - {0}", day.Part2(InputData.Day(25)));
             }
         }
         else

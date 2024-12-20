@@ -9,13 +9,13 @@ public class Day02Benchmark
     public void Part1()
     {
         var day = new Day02();
-        day.Part1(InputData.Day02);
+        day.Part1(InputData.Day(2));
     }
     
     [Benchmark]
     public void Part2()
     {
         var day = new Day02();
-        day.Part2(InputData.Day02);
+        day.Part2(InputData.Day(2));
     }
 }
