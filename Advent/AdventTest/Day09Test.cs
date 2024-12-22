@@ -16,5 +16,21 @@ public class Day09Test
         _day09 = new Day09();
     }
 
-    private string _input = @"";
+    [TestMethod]
+    public void Part1()
+    {
+        var result = _day09.Part1(_input);
+        
+        result.Should().Be(1928);
+    }
+    
+    [TestMethod]
+    public void Part2()
+    {
+        var result = _day09.Part2(_input);
+        
+        result.Should().Be(2858);
+    }
+
+    private string _input = @"2333133121414131402";
 }
