@@ -16,5 +16,32 @@ public class Day08Test
         _day08 = new Day08();
     }
 
-    private string _input = @"";
+    [TestMethod]
+    public void Part1()
+    {
+        var result = _day08.Part1(_input);
+        
+        result.Should().Be(14);
+    }
+    
+    [TestMethod]
+    public void Part2()
+    {
+        var result = _day08.Part2(_input);
+        
+        result.Should().Be(34);
+    }
+
+    private string _input = @"............
+........0...
+.....0......
+.......0....
+....0.......
+......A.....
+............
+............
+........A...
+.........A..
+............
+............";
 }
