@@ -12,20 +12,16 @@ public class Day10
         var maxX = map[0].Length;
         var maxY = map.Length;
         
-        var nines = new List<(int x, int y)>();
         var zerosList = new List<(int x, int y)>();
         
         for (var y = 0; y < maxY; y++)
-            for (var x = 0; x < maxX; x++)
-            {if (map[y][x] == '0')
-                { 
-                //     nines.Add((x, y));
-                // }
-                // else
-                // {
-                    zerosList.Add((x, y));
-                }
+        for (var x = 0; x < maxX; x++)
+        {
+            if (map[y][x] == '0')
+            {
+                zerosList.Add((x, y));
             }
+        }
 
         var zeros = zerosList.ToDictionary(z => z, _ => new HashSet<(int x, int y)>());
 
@@ -68,17 +64,13 @@ public class Day10
         var maxX = map[0].Length;
         var maxY = map.Length;
         
-        var nines = new List<(int x, int y)>();
         var zerosList = new List<(int x, int y)>();
         
         for (var y = 0; y < maxY; y++)
         for (var x = 0; x < maxX; x++)
-        {if (map[y][x] == '0')
-            { 
-                //     nines.Add((x, y));
-                // }
-                // else
-                // {
+        {
+            if (map[y][x] == '0')
+            {
                 zerosList.Add((x, y));
             }
         }
