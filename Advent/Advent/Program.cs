@@ -12,8 +12,8 @@ class Program
 {
     private static Stopwatch _stopwatch;
 
-    private const int From = 10;
-    private const int To = 10;
+    private const int From = 11;
+    private const int To = 11;
 
     private static readonly int[,] Times = new int[25, 2];
 
